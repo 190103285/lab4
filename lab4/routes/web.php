@@ -20,6 +20,10 @@ Route::get('name/{id?}', function () {
 Route::get('name2/{id?}', function () {
     return view('myName');
 });
+Route::get('name3/{id?}', function () {
+    return view('myName');
+});
+
 
 
 
