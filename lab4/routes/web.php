@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('name/{id?}', function () {
     return view('myName');
 });
+
+Route::get('name2/{id?}', function () {
+    return view('myName');
+});
+
+
+
+
